@@ -1,0 +1,19 @@
+CREATE DATEBASE DB1
+ON
+{ 
+ NAME = 'DB1',
+ FILENAME = 'D:\Demo\db1.mdf',
+ SIZE = 10MB,
+ FILEGROWTH = 1MB,
+ MAXSIFE = 20MB
+}
+LOG ON
+{
+ NAME = 'DB1_LOG',
+ FILENAME = 'D:\Demo\DB1_LOG.ldf',
+ SIZE = 5MB,
+ FILEGROWTH = 10%,
+ MAXSIFE = 10MB
+}
+
+-- DB1 -> properties -> files (to see DB1 DB1_LOG)
