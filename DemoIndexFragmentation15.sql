@@ -89,3 +89,6 @@ database_id object_id   index_id    partition_number index_type_desc            
 
 (2 row(s) affected)
 */
+
+
+-- Management -> Maintenance Plans -> Right click Maintenance Plan Wizard
