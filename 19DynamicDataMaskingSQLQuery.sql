@@ -1,3 +1,5 @@
+--no login
+
 CREATE USER TestUser WITHOUT LOGIN;
 ALTER ROLE db_datareader ADD MEMBER TestUser;
 
